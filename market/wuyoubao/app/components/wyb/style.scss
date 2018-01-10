@@ -1,0 +1,57 @@
+@function px2rem($px, $base-font-size: 75px) {
+  @if (unitless($px)) {
+    @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels for you";
+    @return px2rem($px + 0px);
+  } @else if (unit($px) == rem) {
+    @return $px;
+  }
+  //@return ($px / $base-font-size) * 1rem;
+  @return ($px * 2 / $base-font-size) * 1rem;
+}
+
+.bg-class {
+  padding-bottom: px2rem(15px);
+  img{
+    width: 100%;
+  }
+}
+.fix-box{
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  font-size: px2rem(12px);
+  text-align: center;
+  .msg{
+    width: px2rem(36px);
+    margin: px2rem(12px) px2rem(33px) px2rem(7px) px2rem(20px);
+    img{
+      width: px2rem(18px);
+      height: px2rem(15px);
+      margin-bottom: px2rem(6px);
+    }
+  }
+  .tel{
+    width: px2rem(34px);
+    margin-top: px2rem(12px);
+    margin-right: px2rem(26px);
+    img{
+      width: px2rem(17px);
+      height: px2rem(17px);
+      margin-bottom: px2rem(5px);
+    }
+  }
+  .btn-makesure{
+    width: px2rem(250px);
+    height: px2rem(45px);
+    line-height: px2rem(45px);
+    border-radius: 5px;
+    background-color: #4ed386;
+    margin: px2rem(7px) px2rem(6px) px2rem(8px) 0;
+    color: #fff;
+    text-align: center;
+    font-size: px2rem(14px);
+  }
+}
