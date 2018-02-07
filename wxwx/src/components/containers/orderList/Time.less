@@ -1,0 +1,92 @@
+.contantBlock {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 30;
+  overflow: hidden;
+  padding: 0 10px;
+
+  .title {
+    margin: 10px 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #7a7d85;
+
+    .right {
+      position: relative;
+      top: 0;
+      left: 0;
+
+      img {
+        position: absolute;
+        right: 3px;
+        top: 14px;
+        height: 12px;
+        width: 12px;
+      }
+    }
+  }
+
+  .center {
+    height: 40px;
+
+    input {
+      height: 35px;
+      border: 0;
+      width: 120px;
+      background: #f3f4f6;
+      text-align: center;
+      line-height: 35px;
+      font-size: 15px;
+      border-radius: 3px;
+    }
+
+    .middle {
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+  .bottom {
+    margin-top: 20px;
+
+    a {
+      background: #c5cacf;
+      border: 0;
+      height: 44px;
+      border-radius: 4px;
+      color: #fff;
+      line-height: 44px;
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+
+    .ok {
+      background: #f54d4f;
+    }
+
+    .ok2 {
+      background: #f54d4f;
+    }
+  }
+}
+
+@keyframes start {
+  from {
+    transform: translate(50%, 0);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+.start {
+  animation: start 0.3s;
+}

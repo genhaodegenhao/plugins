@@ -1,0 +1,106 @@
+.kuaiqianlogo {
+    display: block;
+    width: 102px;
+    height: 56px;
+    margin: 33px auto 0;
+}
+
+.beforeloginform, .loginForm {
+    width: 295px;
+    margin: 40px auto 0;
+}
+
+.loginForm .list-block .item-inner {
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.beforeloginform .item-content,
+.loginForm .item-content {
+    padding-left: 0;
+}
+
+.list-block .item-title.label {
+    width: 23%;
+}
+
+.checkButton {
+    margin-top: 85px;
+    text-align: center;
+}
+
+.list-block .buttonDefault {
+    height: 44px;
+    line-height: 44px;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #f54d4f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+    display: block;
+}
+
+.list-block .disabled {
+    background-color: #c5cacf;
+    color: #fff;
+}
+
+.loginForm .formSelect {
+    font-size: 17px;
+    padding-right: 14px;
+    background: url("../../img/icon/Ico_DownArrow.png") no-repeat scroll right center transparent;
+}
+
+.fixed-layer {
+    /*position: fixed;*/
+    text-align: center;
+    /*bottom: 30px;*/
+    margin-top: 1.0rem;
+}
+
+.reset-link {
+    display: block;
+    font-size: 14px;
+    color: #5acad8;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+}
+
+.login-fixed-layer {
+    width: 100%;
+}
+
+.reset-form {
+    padding: 0 40px;
+}
+
+.reset-text {
+    font-size: 15px;
+    color: rgb(24, 24, 24);
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+.reset-button-layer {
+    width: 100%;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.reset-button-layer .buttonDefault {
+    height: 44px;
+    line-height: 44px;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #f54d4f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+    display: block;
+}
+
+.modal-text {
+    font-size: 16px;
+}

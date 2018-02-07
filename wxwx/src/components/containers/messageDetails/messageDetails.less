@@ -1,0 +1,67 @@
+.pageContent {
+  .contentInset {
+    margin: 0;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    .contentInner {
+      border-radius: 0;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+
+      .innerHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        .title {
+          font-size: 17px;
+          text-align: center;
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 18px;
+          color: #333;
+        }
+
+        .time {
+          height: 16px;
+          font-size: 12px;
+          text-align: center;
+          line-height: 16px;
+          color: #999;
+        }
+
+        .attach {
+          height: 24px;
+          width: 60px;
+          background: url(../../../assets/img/message/Img_doc_hdpi.png) no-repeat center;
+          background-size: 100%;
+          position: absolute;
+          right: 15px;
+          top: 55px;
+        }
+      }
+
+      .content {
+        font-size: 15px;
+        line-height: 23px;
+        word-break: break-all;
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}

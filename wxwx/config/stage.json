@@ -1,0 +1,11 @@
+{
+  "env": "stage",
+  "publicPath": "https://oms-cloud.99bill.com/stage2/html/agent-sign",
+  "host": "oms-cloud.99bill.com",
+  "port": "80",
+  "fetchConfig": {
+    "isMock": false,
+    "fetchUrl": ""
+  },
+  "debug": false
+}

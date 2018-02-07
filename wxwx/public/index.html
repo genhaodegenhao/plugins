@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="manifest" href="./assets/manifest.json">
+  <link rel="shortcut icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="https://img.99bill.com/seashell/webapp/lib/framework7/1.1.1/css/framework7.ios.min.css">
+  <link rel="stylesheet" href="https://img.99bill.com/seashell/webapp/lib/framework7/1.1.1/css/framework7.ios.colors.min.css">
+  <title></title>
+  <!--<script src="./assets/js/flexible.min.js"></script>-->
+  <!--<script src="https://gw.alipayobjects.com/os/rmsportal/uDTmsEBmTUVrpmCBozbm.js"></script>-->
+  <script src="./assets/js/rem.min.js?t=20180125"></script>
+  <script src="./assets/js/picker.min.js"></script>
+  <script src="./assets/js/LCalendar.js"></script>
+  <style>
+  .addCardMask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 9999;
+  }
+
+  .addContent {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 270px;
+    height: 190px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 99999;
+  }
+
+  .addContent h3 {
+    margin-top: 18px;
+    font-size: 17px;
+    color: #030303;
+  }
+
+  .addContent p {
+    margin-top: 7px;
+    font-size: 13px;
+    color: #030303;
+  }
+
+  .addContent textarea {
+    margin-top: 20px;
+    padding-left: 5px;
+    width: 232px;
+    height: 38px;
+    border: 0.5px solid #dcdcdc;
+    font-size: 13px;
+    color: #333;
+  }
+
+  .addContent .btnWrappers {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 43px;
+    border-top: 0.5px solid #dcdcdc;
+  }
+
+  .addContent span {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: #0076ff;
+    line-height: 43px;
+  }
+  </style>
+</head>
+<body>
+<noscript>
+  You need to enable JavaScript to run this app.
+</noscript>
+<div class="views">
+  <div class="view view-main agentSign">
+    <div class="pages"></div>
+  </div>
+</div>
+
+<script src="https://img.99bill.com/seashell/webapp/lib/framework7/1.1.1/js/framework7.min.js"></script>
+<script src="https://img.99bill.com/seashell/webapp/lib/react/15.3.1/react-with-dom.min.js"></script>
+
+<script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script src="./assets/js/wx-config.js?v=1.5.0"></script>
+</body>
+</html>

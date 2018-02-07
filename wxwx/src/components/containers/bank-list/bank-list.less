@@ -1,0 +1,82 @@
+.pageBank {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+
+  .searchWrapper {
+    padding: 7px 0;
+    width: 100%;
+    height: 30px;
+    background-color: #dadee2;
+    line-height: 30px;
+    z-index: 6000;
+
+    .search {
+      height: 30px;
+      width: 359px;
+      background-color: #fff;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 14px;
+      color: #333;
+    }
+  }
+
+  .bankSlider {
+    background-color: #fff;
+
+    .hot {
+      padding: 12px 15px 10px;
+      width: 100%;
+      height: 56px;
+      box-sizing: border-box;
+      background-color: #f3f4f6;
+      color: #8f8f8f;
+      font-size: 12px;
+      text-align: center;
+      z-index: 6000;
+    }
+
+    .bankList {
+      height: 500px;
+      overflow: auto;
+
+      li {
+        display: -webkit-flex;
+        display: flex;
+        padding-left: 15px;
+        margin-right: 27px;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #f3f4f6;
+
+        img {
+          margin-top: 10px;
+          width: 30px;
+          height: 30px;
+        }
+
+        span {
+          margin-left: 12px;
+        }
+      }
+    }
+
+    .letterNav {
+      position: fixed;
+      width: 12px;
+      top: 100px;
+      right: 15px;
+      color: #92959e;
+      font-size: 12px;
+      font-family: PingFang-SC-Medium;
+
+      li {
+        height: 23px;
+        line-height: 23px;
+      }
+    }
+  }
+}

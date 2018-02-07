@@ -1,0 +1,89 @@
+.contantBlock {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  min-height: 500px;
+  background: #fff;
+  z-index: 20;
+  overflow: hidden;
+
+  .screen {
+    height: 29px;
+    background: #eeeff1;
+    padding: 8px 10px 7px;
+  }
+
+  .screenInput {
+    height: 29px;
+    width: 302px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 29px;
+    text-indent: 30px;
+    background: url(../../../assets/img/orderList/icon_Search_hdpi.png) no-repeat 10px 9px;
+    background-size: 13px 13px;
+    background-color: #fff;
+  }
+
+  .screenInput::-webkit-input-placeholder {
+    color: #92959e;
+  }
+
+  .screenBtn {
+    height: 29px;
+    float: right;
+    width: 45px;
+    text-align: center;
+    line-height: 29px;
+    color: #333;
+    font-size: 14px;
+    padding-left: 5px;
+  }
+}
+
+.contantInner {
+  .screenHistory {
+    height: 44px;
+    border-bottom: 1px solid #dedede;
+    line-height: 44px;
+
+    .title {
+      font-size: 12px;
+      color: #7a7d85;
+      text-indent: 10px;
+    }
+
+    .clear {
+      padding-left: 30px;
+      font-size: 14px;
+      color: #7a7d85;
+      background: url(../../../assets/img/orderList/icon_Empty_hdpi.png) no-repeat 10px 15px;
+      background-size: 14px;
+    }
+  }
+
+  .historyInner {
+    padding-left: 10px;
+    height: 400px;
+    overflow: scroll;
+
+    .list {
+      color: #888;
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #dedede;
+      font-size: 14px;
+    }
+
+    .list2 {
+      color: #333;
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #dedede;
+      font-size: 14px;
+    }
+  }
+}

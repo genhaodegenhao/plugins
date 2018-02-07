@@ -1,0 +1,158 @@
+.wrapper {
+  padding-top: 20px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+
+  .credentialsMessage {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+    .credentialItem {
+      position: relative;
+      margin-left: 15px;
+      padding-right: 15px;
+      height: 44px;
+      border-bottom: 1px solid #eee;
+      line-height: 44px;
+
+      span {
+        font-size: 15px;
+        color: #666;
+      }
+
+      input {
+        width: 220px;
+        height: 100%;
+        border: none;
+        font-size: 15px;
+        color: #333;
+      }
+
+      .selectOption {
+        padding-right: 15px;
+        background: url(../../../assets/img/icon/Arrow_Right@2x.png) no-repeat 100% center;
+        background-size: 6px 12px;
+        box-sizing: border-box;
+      }
+
+      .swicthBox {
+        position: relative;
+        top: 5px;
+        display: inline-block;
+        width: 51px;
+        height: 31px;
+        border-radius: 40px;
+
+        .swicthItem {
+          display: inline-block;
+          width: 29px;
+          height: 29px;
+          background: #fff;
+          border-radius: 40px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+      }
+
+      .open1 {
+        background: rgba(0, 184, 0, 0.8);
+        border: 2px solid rgba(0, 184, 0, 0.8);
+      }
+
+      .open2 {
+        top: 2px;
+        right: 1px;
+      }
+
+      .close1 {
+        background: rgba(255, 255, 255, 0.4);
+        border: 2px solid rgba(0, 0, 0, 0.15);
+        border-left: transparent;
+      }
+
+      .close2 {
+        left: 0;
+        top: 0;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      .finfish {
+        color: #333;
+      }
+
+      .validityWrapper {
+        width: 220px;
+
+        i {
+          display: inline-block;
+          vertical-align: top;
+          margin: 10px 0;
+          padding-left: 22px;
+          width: 42px;
+          height: 21px;
+          background: url(../../../assets/img/icon/SingleSelection@2x.png) no-repeat 0 center;
+          background-size: 14px 14px;
+          border-right: 1px solid #ccc;
+          font-size: 15px;
+          color: #9b9b9b;
+          line-height: 21px;
+        }
+
+        .foreverPer {
+          margin-left: 15px;
+          border-right: none;
+        }
+
+        .validitySelected {
+          background: url(../../../assets/img/icon/SingleSelection_Check@2x.png) no-repeat 0 center;
+          background-size: 14px 14px;
+          color: #f54d4f;
+        }
+      }
+    }
+  }
+
+  .tip {
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 13px;
+    color: #8f8f8f;
+  }
+
+  .btnWrapper {
+    position: absolute;
+    bottom: 0;
+    padding: 0 15px;
+    width: 100%;
+    height: 65px;
+    background-color: #fafafa;
+    border-top: 1px solid #e7e8ec;
+    box-sizing: border-box;
+    line-height: 65px;
+
+    button {
+      margin-right: 9px;
+      width: 167px;
+      height: 44px;
+      background: #fff;
+      border: 1px solid #f54d4f;
+      border-radius: 4px;
+      outline: none;
+      font-size: 17px;
+      color: #f54d4f;
+    }
+
+    .btnNext {
+      margin-right: 0;
+      background: #c5cacf;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+    }
+
+    .save {
+      background: #f54d4f;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.contantBlock {
+  position: absolute;
+  top: 41px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 20;
+  overflow: hidden;
+
+  .contantInner {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #dedede;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@keyframes start {
+  from {
+    transform: translate(0, -100px);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+.start {
+  animation: start 0.3s;
+}
